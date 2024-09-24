@@ -1,0 +1,23 @@
+.cardBackground1 {
+    width: 25%;
+    height: 115px;
+    background: linear-gradient(320deg, rgb(24, 238, 4) ,rgb(132, 206, 132));
+    border-radius: 15px;
+    border: 3px solid;
+    border-color: black;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+}
+
+.cardBackground1:hover{
+    border-color: aliceblue;
+    color: white;
+}
+
+.body1 {
+    background-color: wheat;
+}

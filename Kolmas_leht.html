@@ -3,9 +3,30 @@
     <head>
         <title>Kolmas leht</title>
         <link rel="icon" type="png" href="Screenshot_3.png">
+        <link rel="stylesheet" href="Kolmas_leht_StyleSheet.css">
     </head>
 
-    <body style="background-color: wheat;">
+<style>
+    select:focus {
+        outline: 2px solid rgb(17, 35, 196);
+    }
 
+    select:hover {
+        color: rgb(11, 202, 43);
+    }
+</style>
+
+    <body class="body1">
+        <form>
+            <label for="puuviljad">Puuviljad:</label>
+            <select style="border-radius: 5px; border-color: rgb(3, 216, 14); border-width: 2px;" name="puuviljad" id="puuviljad">
+                <option value="õun">õun</option>
+                <option value="pirn">pirn</option>
+                <option value="apelsiin">apelsiin</option>
+            </select>
+        </form>
+        
+        <h2>Youtube video</h2>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/U3bmWeORX_M?si=yskQ7kCleAXuL9ei" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </body>
 </html>
