@@ -25,7 +25,7 @@
 }
 
 @keyframes spin {
-    form{
+    from{
         --angle: 0deg;
     }
     to{
@@ -49,6 +49,8 @@
 }
 
 @media (max-width:767px) {
-
-
+    .card {
+        width: 300px;
+        height: 300px;
+    }
 }
