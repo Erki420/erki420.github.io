@@ -1,29 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-body {
-    background-color: #0b0d15;
-    min-height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 .card::after, .card::before {
     content: '';
     border: 3px solid rgb(83, 83, 83);
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     background-color: rgb(151, 144, 144);
     border-radius: 15px;
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    text-align: center;
+    translate: -50% -50%;
     color: rgb(77, 76, 76);
 }
 
@@ -39,30 +24,30 @@ body {
 }
 
 @keyframes spin {
-    from {
+    from{
         --angle: 0deg;
     }
-    to {
-        --angle: 360deg;
+    to{
+        --angle:360deg;
     }
 }
 
 .animation-Card::after, .animation-Card::before {
     content: '';
     position: absolute;
-    width: 500px;
-    height: 500px;
+    width: 300px;
+    height: 300px;
     top: 50%;
     left: 50%;
-    background-image: conic-gradient(from var(--angle), transparent 70%, blue);
-    transform: translate(-50%, -50%);
+    background-image: conic-gradient(from var(--angle) ,transparent 70%, blue);
+    translate: -50% -50%;
     z-index: -1;
     padding: 10px;
     border-radius: 15px;
     animation: 3s spin linear infinite;
 }
 
-@media (max-width: 767px) {
+@media (max-width:767px) {
     .card {
         width: 300px;
         height: 300px;
