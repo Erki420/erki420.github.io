@@ -12,6 +12,10 @@
     color: rgb(77, 76, 76);
 }
 
+body {
+    background-color: rgb(26, 25, 25);
+}
+
 .animation-Card::before {
     filter: blur(1.5rem);
     opacity: 1;
