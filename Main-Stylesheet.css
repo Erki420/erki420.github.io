@@ -266,18 +266,54 @@ body {
 }
 
 @media (max-width:767px) {
-    .question-div1 {font-size: 15px; translate: 0 -5px;}
-    .question-div2 {font-size: 15px; translate: 0 -5px;}
-    .question-div3 {font-size: 15px; translate: 0 -5px;}
-    .question-div4 {font-size: 15px; translate: 0 -5px;}
-    .question-div5 {font-size: 15px; translate: 0 -5px;}
-    .question-div6 {font-size: 15px; translate: 0 -5px;}
-    .question-div7 {font-size: 15px; translate: 0 -5px;}
+    .question-div1 {font-size: 14px; translate: 0 -5px;}
+    .question-div2 {font-size: 14px; translate: 0 -5px;}
+    .question-div3 {font-size: 14px; translate: 0 -5px;}
+    .question-div4 {font-size: 14px; translate: 0 -5px;}
+    .question-div5 {font-size: 14px; translate: 0 -5px;}
+    .question-div6 {font-size: 14px; translate: 0 -5px;}
+    .question-div7 {font-size: 14px; translate: 0 -5px;}
+    
+    .question-div1 select {
+        width: 200px;
+        height: 20px;
+    }
 
+    .question-div2 select {
+        width: 200px;
+        height: 20px;
+    }
+
+    .question-div3 select {
+        width: 200px;
+        height: 20px;
+    }
+
+    .question-div4 select {
+        width: 200px;
+        height: 20px;
+    }
+
+    .question-div5 select {
+        width: 200px;
+        height: 20px;
+    }
+
+    .question-div6 select {
+        width: 200px;
+        height: 20px;
+    }
+
+    .question-div7 select {
+        width: 200px;
+        height: 20px;
+    }
+    
     .text-box {width: 80%;}
     .text-box h1 {text-align: center;translate: 0 7px;}
     .text-box span {padding: 15px;display: block;font-size: larger;translate: 0 0;}
     .check {translate: 0 430px;}
 
     .correctAnswersText {translate: -15px 0;}
+
 }
