@@ -6,7 +6,8 @@ function KasutajaOnTelefonis() {
 return /Android/iPhone/i.test(navigator.userAgent.toLowerCase)
 
 }
-
+console.log(KasutajaOnTelefonis())
+console.log(KasutajaOnTelefonis)
 tuvastamisNupp.onclick = TuvastaTelefon;
 function TuvastaTelefon() {
     if (KasutajaOnTelefonis()){
