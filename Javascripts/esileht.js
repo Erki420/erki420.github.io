@@ -18,7 +18,7 @@ function TuvastaTelefon() {
         tuvastatudTekst.textContent = "Tuvastatud arvuti";
     }
 
-    requestAnimationFrame(TuvastaTelefon());
+    requestAnimationFrame(TuvastaTelefon);
 }
 
-requestAnimationFrame(TuvastaTelefon());
+requestAnimationFrame(TuvastaTelefon);
