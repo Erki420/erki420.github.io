@@ -11,7 +11,7 @@ function KasutajaOnTelefonis() {
 }
 
 function TuvastaTelefon() {
-    if (KasutajaOnTelefonis){
+    if (KasutajaOnTelefonis()){
         tuvastatudTekst.textContent = "Tuvastatud telefon";
     }
     else{
@@ -20,3 +20,5 @@ function TuvastaTelefon() {
 
     requestAnimationFrame(TuvastaTelefon());
 }
+
+requestAnimationFrame(TuvastaTelefon());
