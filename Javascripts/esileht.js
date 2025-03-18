@@ -3,6 +3,6 @@ window.onload = function(){
 }
 
 function teata(){
-    print("Update jooksis!");
+    console.log("Update jooksis!");
     requestAnimationFrame(teata);
 }
