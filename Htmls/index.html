@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>Tutvustus</title>
+    <script>
+        fetch("TopMenu.html").then(result => result.text()).then(htmlData => {
+            document.getElementById("topmenu").innerHTML = htmlData;
+        });
+    </script>
+</head>
+<body>
+    <div id="topmenu"></div>
+</body>
+</html>
