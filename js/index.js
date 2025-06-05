@@ -1,6 +1,10 @@
 window.onload = () => {
     LoadTopMenu()
     console.log("Leht laadis")
+    
+    document.getElementById("submitbutton").onclick = () =>{
+        console.log("VAJUTATI!!!");
+    }
 }
 
 function LoadTopMenu(){
